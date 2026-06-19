@@ -39,3 +39,22 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# clerk configuration (can include secrets)
+/.clerk/
+
+# agent & local IDE configs
+/.agent/
+/.agents/
+/.claude/
+/skills-lock.json
+
+# Scala build files
+/.bsp/
+/.scala-build/
+/Collections.scala
+
+# temp/test scripts
+/run.txt
+/test-google-client.ts
+
