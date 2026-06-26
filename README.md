@@ -34,14 +34,14 @@
     <td width="50%" align="center">
       <strong>1. Main Dashboard</strong>
       <br/><br/>
-      <img src=<img width="1512" height="897" alt="Screenshot 2026-06-26 at 8 34 51 PM src="https://github.com/user-attachments/assets/762e757e-1299-451a-af73-9365da8cb8b7 />
-" />
-" width="100%" style="border-radius: 8px; border: 1px solid #334155;" alt="Dashboard Preview" />
+      <!-- Active Dashboard Image -->
+      <img src="https://github.com/user-attachments/assets/762e757e-1299-451a-af73-9365da8cb8b7" width="100%" style="border-radius: 8px; border: 1px solid #334155;" alt="Dashboard Preview" />
     </td>
     <td width="50%" align="center">
       <strong>2. AI Smart Inbox</strong>
       <br/><br/>
-      <img src="https://via.placeholder.com/800x450/1e293b/ffffff?text=Smart+Inbox+Preview+-+Click+to+Change" width="100%" style="border-radius: 8px; border: 1px solid #334155;" alt="Smart Inbox Preview" />
+      <!-- 📥 TO ADD IMAGE 2: Paste your image link inside src="..." below -->
+      <img src="PASTE_SMART_INBOX_IMAGE_URL_HERE" width="100%" style="border-radius: 8px; border: 1px solid #334155;" alt="Smart Inbox Preview" />
     </td>
   </tr>
   <tr>
@@ -49,14 +49,15 @@
       <br/>
       <strong>3. Execution Monitor Logs</strong>
       <br/><br/>
-      <img src="<img width="1512" height="897" alt="Screenshot 2026-06-26 at 8 36 45 PM" src="https://github.com/user-attachments/assets/aac4636e-93dd-4b07-830e-8bae6f0709f9" />
-" width="100%" style="border-radius: 8px; border: 1px solid #334155;" alt="Execution Monitor Preview" />
+      <!-- Active Logs Image -->
+      <img src="https://github.com/user-attachments/assets/aac4636e-93dd-4b07-830e-8bae6f0709f9" width="100%" style="border-radius: 8px; border: 1px solid #334155;" alt="Execution Monitor Preview" />
     </td>
     <td width="50%" align="center">
       <br/>
       <strong>4. Google Workspace Integrations</strong>
       <br/><br/>
-      <img src="https://via.placeholder.com/800x450/1e293b/ffffff?text=Google+Integrations+Preview+-+Click+to+Change" width="100%" style="border-radius: 8px; border: 1px solid #334155;" alt="Google Integrations Preview" />
+      <!-- 🔌 TO ADD IMAGE 4: Paste your image link inside src="..." below -->
+      <img src="PASTE_GOOGLE_INTEGRATIONS_IMAGE_URL_HERE" width="100%" style="border-radius: 8px; border: 1px solid #334155;" alt="Google Workspace Integrations Preview" />
     </td>
   </tr>
 </table>
@@ -66,7 +67,8 @@
 <p align="center">
   <strong>5. Task Management & AI Actions Panel</strong>
   <br/><br/>
-  <img src="https://via.placeholder.com/1000x500/1e293b/ffffff?text=Task+Management+Preview+-+Click+to+Change" width="80%" style="border-radius: 8px; border: 1px solid #334155;" alt="Task Management Preview" />
+  <!-- 📋 TO ADD IMAGE 5: Paste your image link inside src="..." below -->
+  <img src="PASTE_TASK_MANAGEMENT_IMAGE_URL_HERE" width="80%" style="border-radius: 8px; border: 1px solid #334155;" alt="Task Management Preview" />
 </p>
 
 ---
