@@ -1,25 +1,89 @@
 # IownOS 🤖💼
 
-**IownOS** is an autonomous, agentic AI Executive Assistant designed to manage your inbox and schedule. It connects to your Gmail and Google Calendar, retrieves unread emails, analyzes their content using LLMs (Gemini), and takes real-world actions on your behalf—such as creating tasks, scheduling calendar events, and drafting reply emails.
+<p align="center">
+  <img src="https://img.shields.io/badge/Next.js_16-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next.js" />
+  <img src="https://img.shields.io/badge/React_19-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
+  <img src="https://img.shields.io/badge/Gemini_AI-8E75C2?style=for-the-badge&logo=google&logoColor=white" alt="Google Gemini" />
+  <img src="https://img.shields.io/badge/Clerk_Auth-6C47FF?style=for-the-badge&logo=clerk&logoColor=white" alt="Clerk Auth" />
+  <img src="https://img.shields.io/badge/Drizzle_ORM-C5F74F?style=for-the-badge&logo=drizzle&logoColor=black" alt="Drizzle ORM" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwindcss&logoColor=white" alt="Tailwind CSS" />
+  <img src="https://img.shields.io/badge/Neon_DB-00E599?style=for-the-badge&logo=neon&logoColor=black" alt="Neon Database" />
+</p>
 
-🔗 **Live Demo**: [https://iown-os.vercel.app](https://iown-os.vercel.app) *(Replace with your actual Vercel URL once deployed)*
+---
+
+<p align="center">
+  <strong>IownOS</strong> is an autonomous, agentic AI Executive Assistant designed to manage your inbox and schedule. It connects to your Gmail and Google Calendar, retrieves unread emails, analyzes their content using Gemini LLMs, and takes real-world actions on your behalf—such as creating tasks, scheduling calendar events, and drafting reply emails.
+</p>
+
+<p align="center">
+  <a href="https://iown-os-git-main-armaans-projects-0b9ca4a9.vercel.app/" target="_blank">
+    <img src="https://img.shields.io/badge/🚀_Live_Demo-Open_Application-00E599?style=for-the-badge&logo=vercel&logoColor=black" alt="Live Demo" />
+  </a>
+</p>
+
+---
+
+## 🖼️ Application Previews
+
+*Here are screenshots showing the application in action. Replace these placeholder images with your actual app screenshots!*
+
+<table align="center" width="100%">
+  <tr>
+    <td width="50%" align="center">
+      <strong>1. Main Dashboard</strong>
+      <br/><br/>
+      <img src="https://via.placeholder.com/800x450/1e293b/ffffff?text=Dashboard+Preview+-+Click+to+Change" width="100%" style="border-radius: 8px; border: 1px solid #334155;" alt="Dashboard Preview" />
+    </td>
+    <td width="50%" align="center">
+      <strong>2. AI Smart Inbox</strong>
+      <br/><br/>
+      <img src="https://via.placeholder.com/800x450/1e293b/ffffff?text=Smart+Inbox+Preview+-+Click+to+Change" width="100%" style="border-radius: 8px; border: 1px solid #334155;" alt="Smart Inbox Preview" />
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" align="center">
+      <br/>
+      <strong>3. Execution Monitor Logs</strong>
+      <br/><br/>
+      <img src="https://via.placeholder.com/800x450/1e293b/ffffff?text=Execution+Monitor+Preview+-+Click+to+Change" width="100%" style="border-radius: 8px; border: 1px solid #334155;" alt="Execution Monitor Preview" />
+    </td>
+    <td width="50%" align="center">
+      <br/>
+      <strong>4. Google Workspace Integrations</strong>
+      <br/><br/>
+      <img src="https://via.placeholder.com/800x450/1e293b/ffffff?text=Google+Integrations+Preview+-+Click+to+Change" width="100%" style="border-radius: 8px; border: 1px solid #334155;" alt="Google Integrations Preview" />
+    </td>
+  </tr>
+</table>
+
+<br/>
+
+<p align="center">
+  <strong>5. Task Management & AI Actions Panel</strong>
+  <br/><br/>
+  <img src="https://via.placeholder.com/1000x500/1e293b/ffffff?text=Task+Management+Preview+-+Click+to+Change" width="80%" style="border-radius: 8px; border: 1px solid #334155;" alt="Task Management Preview" />
+</p>
 
 ---
 
 ## 🌟 Key Features
 
-- **Autonomous Email Management**: Retrieves unread emails, categorizes them, prioritizes urgency, and automatically drafts professional context-aware replies.
-- **Smart Task Extraction**: Automatically creates tasks in your database from actionable items identified within email bodies.
-- **Calendar Intelligence**: Checks your current schedule context to schedule meetings and creates Google Calendar events without double-booking.
-- **OAuth Integration**: Secure OAuth 2.0 flows for Google Workspace (Gmail + Calendar) with built-in CSRF token protection.
-- **Enterprise-Grade Security**: Access and refresh tokens are double-encrypted in transit and stored securely using symmetric **AES-256-GCM** encryption.
-- **Execution Monitoring**: Rich run logs that track the status, execution duration, and stats (emails processed, tasks created, drafts written) of every agent execution.
+*   **🤖 Autonomous Email Management**: Retrieves unread emails, categorizes them, prioritizes urgency, and automatically drafts professional context-aware replies.
+*   **📋 Smart Task Extraction**: Automatically creates tasks in your database from actionable items identified within email bodies.
+*   **📅 Calendar Intelligence**: Checks your current schedule context to schedule meetings and creates Google Calendar events without double-booking.
+*   **🔑 OAuth Integration**: Secure OAuth 2.0 flows for Google Workspace (Gmail + Calendar) with built-in CSRF token protection.
+*   **🔒 Enterprise-Grade Security**: Access and refresh tokens are double-encrypted in transit and stored securely using symmetric **AES-256-GCM** encryption.
+*   **📊 Execution Monitoring**: Rich run logs that track the status, execution duration, and stats (emails processed, tasks created, drafts written) of every agent execution.
 
 ---
 
 ## 🏗️ Architecture & Flows
 
-### 1. High-Level System Architecture
+<details>
+<summary><b>📐 High-Level System Architecture (Click to expand)</b></summary>
+<br/>
+
 The application is built on Next.js 16, utilizing Clerk for authentication, Drizzle ORM for PostgreSQL database interactions, Vercel AI SDK + Gemini 2.5 Flash for model orchestration, and Google APIs for user workspace integrations.
 
 ```mermaid
@@ -63,11 +127,13 @@ graph TD
     %% DB Interaction
     Drizzle --> DB
 ```
+</details>
 
----
+<details>
+<summary><b>🔄 Agent Execution Workflow (Click to expand)</b></summary>
+<br/>
 
-### 2. Agent Execution Workflow (`runAgent`)
-When an agent execution is triggered (either via the "Run Agent Now" dashboard button or an automated cron/webhook), it goes through the following multi-stage agentic pipeline:
+When an agent execution is triggered, it goes through the following multi-stage agentic pipeline:
 
 ```mermaid
 sequenceDiagram
@@ -120,10 +186,11 @@ sequenceDiagram
     Backend->>Database: Complete agent run (log status, actions, metrics)
     Backend->>Client: Return run stats (emails processed, tasks, drafts)
 ```
+</details>
 
----
-
-### 3. Database Entity-Relationship Diagram (ERD)
+<details>
+<summary><b>💾 Database Entity-Relationship Diagram (Click to expand)</b></summary>
+<br/>
 
 ```mermaid
 erDiagram
@@ -184,6 +251,7 @@ erDiagram
     USERS ||--o{ TASKS : "owns"
     USERS ||--o{ AGENT_RUNS : "executes"
 ```
+</details>
 
 ---
 
@@ -227,21 +295,20 @@ iown-os/
 ---
 
 ## 🔑 Security & Token Encryption
+
 To protect sensitive Google Workspace scopes, `iown-os` never stores plain-text OAuth tokens in the database. Instead, it utilizes symmetric encryption via the Node.js `crypto` module:
-- **Algorithm**: `aes-256-gcm` (authenticated encryption with associated data)
-- **Keys**: Cryptographic hash generated from the `ENCRYPTION_KEY` environment variable.
-- **Storage Format**: `iv:authTag:encryptedCiphertext`
-- **Decryption**: Verified and decrypted on-the-fly inside the agent runtime when generating Google API clients.
+*   **Algorithm**: `aes-256-gcm` (authenticated encryption with associated data)
+*   **Keys**: Cryptographic hash generated from the `ENCRYPTION_KEY` environment variable.
+*   **Storage Format**: `iv:authTag:encryptedCiphertext`
+*   **Decryption**: Verified and decrypted on-the-fly inside the agent runtime when generating Google API clients.
 
 ---
 
 ## 🛠️ Local Development Setup
 
-Follow these steps to run IownOS locally:
-
 ### 1. Prerequisites
-- **Node.js** (v18+) or **Bun** installed
-- **PostgreSQL** instance running locally or hosted on Neon/Supabase
+*   **Node.js** (v18+) or **Bun** installed
+*   **PostgreSQL** instance running locally or hosted on Neon/Supabase
 
 ### 2. Clone and Install Dependencies
 ```bash
@@ -265,12 +332,12 @@ NEXT_PUBLIC_CLERK_SIGN_UP_URL="/sign-up"
 # Google Credentials (for OAuth)
 GOOGLE_CLIENT_ID="your-google-client-id.apps.googleusercontent.com"
 GOOGLE_CLIENT_SECRET="your-google-client-secret"
-NEXT_PUBLIC_APP_URL="http://localhost:3000"
+NEXT_PUBLIC_APP_URL="http://localhost:3001"
 
 # Gemini AI API Key
 GOOGLE_GENERATIVE_AI_API_KEY="your-gemini-api-key"
 
-# AES Token Encryption Key (must be a long random string)
+# AES Token Encryption Key
 ENCRYPTION_KEY="your-random-aes-256-key"
 ```
 
@@ -287,9 +354,4 @@ Start the Next.js development server:
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) to view and test the application dashboard.
-
----
-
-## 📝 License
-This project is licensed under the MIT License.
+Open [http://localhost:3001](http://localhost:3001) to view and test the application dashboard.
