@@ -34,7 +34,8 @@
     <td width="50%" align="center">
       <strong>1. Main Dashboard</strong>
       <br/><br/>
-      <img src="<img width="1512" height="897" alt="Screenshot 2026-06-26 at 8 34 34 PM" src="https://github.com/user-attachments/assets/3b6f617f-89b4-4498-9f9e-c169bbb11581" />
+      <img src=<img width="1512" height="897" alt="Screenshot 2026-06-26 at 8 34 51 PM" src="https://github.com/user-attachments/assets/762e757e-1299-451a-af73-9365da8cb8b7 />
+" />
 " width="100%" style="border-radius: 8px; border: 1px solid #334155;" alt="Dashboard Preview" />
     </td>
     <td width="50%" align="center">
