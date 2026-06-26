@@ -1,6 +1,7 @@
 # IownOS 🤖💼
 
 <p align="center">
+  <img src="https://img.shields.io/badge/Agentic_AI-System-FF5733?style=for-the-badge&logo=openai&logoColor=white" alt="Agentic AI" />
   <img src="https://img.shields.io/badge/Next.js_16-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next.js" />
   <img src="https://img.shields.io/badge/React_19-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
   <img src="https://img.shields.io/badge/Gemini_AI-8E75C2?style=for-the-badge&logo=google&logoColor=white" alt="Google Gemini" />
@@ -13,7 +14,7 @@
 ---
 
 <p align="center">
-  <strong>IownOS</strong> is an autonomous, agentic AI Executive Assistant designed to manage your inbox and schedule. It connects to your Gmail and Google Calendar, retrieves unread emails, analyzes their content using Gemini LLMs, and takes real-world actions on your behalf—such as creating tasks, scheduling calendar events, and drafting reply emails.
+  <strong>IownOS</strong> is an autonomous, <strong>Agentic AI</strong> Executive Assistant designed to manage your inbox and schedule. As a fully agentic AI system, it connects to your Gmail and Google Calendar, retrieves unread emails, analyzes their content using Gemini LLMs, and executes real-world actions on your behalf—such as creating tasks, scheduling calendar events, and drafting reply emails.
 </p>
 
 <p align="center">
