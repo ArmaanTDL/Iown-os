@@ -2,6 +2,8 @@
 
 **IownOS** is an autonomous, agentic AI Executive Assistant designed to manage your inbox and schedule. It connects to your Gmail and Google Calendar, retrieves unread emails, analyzes their content using LLMs (Gemini), and takes real-world actions on your behalf—such as creating tasks, scheduling calendar events, and drafting reply emails.
 
+🔗 **Live Demo**: [https://iown-os.vercel.app](https://iown-os.vercel.app) *(Replace with your actual Vercel URL once deployed)*
+
 ---
 
 ## 🌟 Key Features
@@ -243,7 +245,7 @@ Follow these steps to run IownOS locally:
 
 ### 2. Clone and Install Dependencies
 ```bash
-git clone https://github.com/your-username/iown-os.git
+git clone https://github.com/ArmaanTDL/Iown-os.git
 cd iown-os
 npm install
 ```
