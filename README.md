@@ -40,9 +40,8 @@
     <td width="50%" align="center">
       <strong>2. AI Smart Inbox</strong>
       <br/><br/>
-      <!-- 📥 TO ADD IMAGE 2: Paste your image link inside src="..." below -->
-      <img src="<img width="1512" height="897" alt="Screenshot 2026-06-26 at 8 36 34 PM" src="https://github.com/user-attachments/assets/2c5dafd0-3f59-4a29-afa5-53f5f05d7c30" />
-" style="border-radius: 8px; border: 1px solid #334155;" alt="Smart Inbox Preview" />
+      <!-- Active Smart Inbox Image -->
+      <img src="https://github.com/user-attachments/assets/2c5dafd0-3f59-4a29-afa5-53f5f05d7c30" width="100%" style="border-radius: 8px; border: 1px solid #334155;" alt="Smart Inbox Preview" />
     </td>
   </tr>
   <tr>
@@ -57,9 +56,8 @@
       <br/>
       <strong>4. Google Workspace Integrations</strong>
       <br/><br/>
-      <!-- 🔌 TO ADD IMAGE 4: Paste your image link inside src="..." below -->
-      <img src="<img width="3024" height="1654" alt="Untitled - 26 June 2026 at 20 51 05" src="https://github.com/user-attachments/assets/17d28d1d-bb12-48cd-a017-144010660be2" />
-" width="100%" style="border-radius: 8px; border: 1px solid #334155;" alt="Google Workspace Integrations Preview" />
+      <!-- Active Google Workspace Integrations Image -->
+      <img src="https://github.com/user-attachments/assets/17d28d1d-bb12-48cd-a017-144010660be2" width="100%" style="border-radius: 8px; border: 1px solid #334155;" alt="Google Workspace Integrations Preview" />
     </td>
   </tr>
 </table>
